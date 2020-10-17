@@ -19,8 +19,10 @@ webpack accepts configuration files written in multiple programming and data lan
 
 To write the webpack configuration in [TypeScript](http://www.typescriptlang.org/), you would first install the necessary dependencies, i.e., TypeScript and the relevant type definitions from the [DefinitelyTyped](https://definitelytyped.org/) project:
 
+T> Starting with webpack@5 it's no longer needed to install @types/webpack
+
 ``` bash
-npm install --save-dev typescript ts-node @types/node @types/webpack
+npm install --save-dev typescript ts-node @types/node
 # and, if using webpack-dev-server
 npm install --save-dev @types/webpack-dev-server
 ```
